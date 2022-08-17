@@ -1,0 +1,3 @@
+[submodule "extract-function"]
+	path = extract-function
+	url = https://github.com/kaiosilveira/refactoring-extract-function.git
