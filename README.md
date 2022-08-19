@@ -19,7 +19,9 @@ Each submodule is named after the refactoring name, and inside each of them you'
 
 This catalog explains in detail (and with working code) the various strategies presented in the book. The examples used here are the same as the ones in the book, with some slight changes when applicable.
 
-[extract-function](https://github.com/kaiosilveira/refactoring-extract-function): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
+- [extract-function](https://github.com/kaiosilveira/refactoring-extract-function): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
+
+- [inline-function](https://github.com/kaiosilveira/refactoring-extract-function): sometimes a short function's body is as clear as its name, in this cases we often want to inline it and be more idiomatic instead of performing a function call.
 
 ## Disclaimer
 
