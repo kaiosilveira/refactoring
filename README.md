@@ -2,7 +2,21 @@
 
 **This repository is a work in progress and is being constantly updated. Stay tuned!**
 
-This repository is a working implementation of the refactoring patterns described in the "Refactoring" book, by Martin Fowler. To keep things clean and to make each refactoring as detailed and precise as possible, this repo was organized using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), where each refactoring belongs to a separate git repository, added to this main repo as a reference.
+This repository is a working implementation of the refactoring patterns described in the "Refactoring" book, by Martin Fowler.
+
+Throughout my entire career I've seen experienced engineers falling into the mistake of performing destructive\* changes in a code base and committing it as "refactoring". I'm no different and have done it myself more times than I can count. After reading the book and understanding in-depth what "refactoring" means as a discipline, I started to pay way more attention on the small details involved in changing existing code, either when aiming to improve its readability and architecture or when adding new functionality. Fowler mentions the "two hats" in the book as a metaphor to explain that we should do one thing at a time: we are either refactoring or introducing new code / changing behavior, but we should always try to avoid performing both actions at once.
+
+Another key aspect of refactoring is that although we can do it in a codebase that doesn't contain at least unit tests, it would be way harder, both psychologically and practically. Psychologically because we will constantly feel unsure about whether our changes are good and didn't change anything (unless we spend a lot of time doing manually, error-prone manual testing, of course). And practically because we would be potentially creating demand for reworks, introducing bugs that will haunt us in the future or even messing up with the commit history and clarity. These are the main points that highlights the importance of a healthy test suite around a given code base to allow a refactoring session to be pleasant and productive.
+
+_\*destructive: By "destructive" here I mean any change to the code that makes it different from the original one, in terms of external behavior. From this point of view, we could be performing a destructive action even if we are only adding new, bug free, functionality. It's an aggressive approach, but I think it helps illustrating the problem space and highlighting the importance of the small steps._
+
+## What is refactoring?
+
+"Refactoring is the process of changing a software system in a way that does not alter the external behavior of the code yet improves its internal structure. It is a **disciplined way** to clean up code that minimizes the chances of introducing bugs. In essence, when you refactor, you are improving the design of the code after it has been written" - Fowler, Martin @ Refactoring
+
+## Technical details and repo structure
+
+To keep things clean and to make each refactoring as detailed and precise as possible, this repo was organized using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), where each refactoring belongs to a separate git repository, added to this main repo as a reference.
 Each submodule is named after the refactoring name, and inside each of them you'll find a similar structure:
 
 - a brief description on the motivation of the refactoring
@@ -11,9 +25,40 @@ Each submodule is named after the refactoring name, and inside each of them you'
 - a "test suite" section, explaining which unit tests were added to support the refactoring work (please note that these tests may differ from what's in the working examples from Fowler's website because I didn't use them as a reference)
 - a step by step description of the refactoring process, including git diffs for each step
 
-## What is refactoring?
+Regarding tests, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. The ci.yml file is pretty simple:
 
-"Refactoring is the process of changing a software system in a way that does not alter the external behavior of the code yet improves its internal structure. It is a **disciplined way** to clean up code that minimizes the chances of introducing bugs. In essence, when you refactor, you are improving the design of the code after it has been written" - Fowler, Martin @ Refactoring
+```yml
+name: CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  Integration:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run unit tests
+        run: npm run test
+```
+
+Also, while performing the refactorings, I always kept the test suite running, so I could have a quick feedback when something went wrong.
 
 ## The refactoring catalog
 
