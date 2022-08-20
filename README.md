@@ -1,10 +1,10 @@
 # Refactoring
 
-**This repository is a work in progress and is being constantly updated. Stay tuned!**
+**🚧 This repository is a work in progress and is being constantly updated. Stay tuned! 🚧**
 
 This repository is a working implementation of the refactoring patterns described in the "Refactoring" book, by Martin Fowler.
 
-Throughout my entire career I've seen experienced engineers falling into the mistake of performing destructive\* changes in a code base and committing it as "refactoring". I'm no different and have done it myself more times than I can count. After reading the book and understanding in-depth what "refactoring" means as a discipline, I started to pay way more attention on the small details involved in changing existing code, either when aiming to improve its readability and architecture or when adding new functionality. Fowler mentions the "two hats" in the book as a metaphor to explain that we should do one thing at a time: we are either refactoring or introducing new code / changing behavior, but we should always try to avoid performing both actions at once.
+Throughout my entire career I've seen experienced engineers making the mistake of performing destructive\* changes in a code base and committing it as "refactoring". I'm no different and have done it myself more times than I can count. After reading the book and understanding in-depth what "refactoring" means as a discipline, I started to pay way more attention on the small details involved in changing existing code, either when aiming to improve its readability and architecture or when adding new functionality. Fowler mentions the "two hats" in the book as a metaphor to explain that we should do one thing at a time: we are either refactoring or introducing new code / changing behavior, but we should always try to avoid performing both actions at once.
 
 Another key aspect of refactoring is that although we can do it in a codebase that doesn't contain at least unit tests, it would be way harder, both psychologically and practically. Psychologically because we will constantly feel unsure about whether our changes are good and didn't change anything (unless we spend a lot of time doing manually, error-prone manual testing, of course). And practically because we would be potentially creating demand for reworks, introducing bugs that will haunt us in the future or even messing up with the commit history and clarity. These are the main points that highlights the importance of a healthy test suite around a given code base to allow a refactoring session to be pleasant and productive.
 
@@ -16,16 +16,15 @@ _\*destructive: By "destructive" here I mean any change to the code that makes i
 
 ## Technical details and repo structure
 
-To keep things clean and to make each refactoring as detailed and precise as possible, this repo was organized using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), where each refactoring belongs to a separate git repository, added to this main repo as a reference.
-Each submodule is named after the refactoring name, and inside each of them you'll find a similar structure:
+To keep things clean and to make each refactoring as detailed and precise as possible, this repo was organized using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), where each refactoring belongs to a separate git repository, added to this main repo as a reference. Therefore, what you will see here is just an aggregator with some general documentation. Each submodule is named after the refactoring name, and inside each of them you'll find a similar structure:
 
 - a brief description on the motivation of the refactoring
-- a "before / after" section containing the sample code we will be working with
+- a "Working example" section containing the sample code we will be working with, including a "before / after" comparison
 - a shortened (`git log --oneline`) git history of the commits made
 - a "test suite" section, explaining which unit tests were added to support the refactoring work (please note that these tests may differ from what's in the working examples from Fowler's website because I didn't use them as a reference)
-- a step by step description of the refactoring process, including git diffs for each step
+- a step by step description of the refactoring process, including `git diff`s for each step
 
-Regarding tests, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. The ci.yml file is pretty simple:
+Regarding tests, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. The `ci.yml` file is pretty simple:
 
 ```yml
 name: CI
