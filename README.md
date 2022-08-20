@@ -64,9 +64,11 @@ Also, while performing the refactorings, I always kept the test suite running, s
 
 This catalog explains in detail (and with working code) the various strategies presented in the book. The examples used here are the same as the ones in the book, with some slight changes when applicable.
 
-- [extract-function](https://github.com/kaiosilveira/refactoring-extract-function): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
+- [Extract function](https://github.com/kaiosilveira/extract-function-refactoring/tree/cb8ddde012c1bd7d45211ee4c32466126ba2d710): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
 
-- [inline-function](https://github.com/kaiosilveira/refactoring-extract-function): sometimes a short function's body is as clear as its name, in this cases we often want to inline it and be more idiomatic instead of performing a function call.
+- [Inline function](https://github.com/kaiosilveira/inline-function-refactoring/tree/858813b15d92ebfe46c85de345251bb0bfb37093): sometimes a short function's body is as clear as its name, in this cases we often want to inline it and be more idiomatic instead of performing a function call.
+
+- [Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring): sometimes expressions become hard to read and adds a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret, replacing it basically by well structured text.
 
 ## Disclaimer
 
