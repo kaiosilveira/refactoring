@@ -7,3 +7,6 @@
 [submodule "extract-variable"]
 	path = extract-variable
 	url = https://github.com/kaiosilveira/extract-variable-refactoring.git
+[submodule "inline-variable"]
+	path = inline-variable
+	url = https://github.com/kaiosilveira/inline-variable-refactoring.git
