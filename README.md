@@ -65,13 +65,13 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Extract function](https://github.com/kaiosilveira/extract-function-refactoring): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
 
-- [Inline function](https://github.com/kaiosilveira/inline-function-refactoring): sometimes a short function's body is as clear as its name, in this cases we often want to inline it and be more idiomatic instead of performing a function call.
+- [Inline function](https://github.com/kaiosilveira/inline-function-refactoring): sometimes a short function's body is as clear as its name, in these cases we often want to inline it and be more idiomatic instead of performing a function call.
 
 - [Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring): sometimes expressions become hard to read and adds a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret, replacing it basically by well structured text.
 
-- [Inline variable](https://github.com/kaiosilveira/inline-variable-refactoring): Sometimes a variable is as clear and short as the expression it is derived from, and sometimes it gets in the way of refactoring the code surrounding it. In this cases, it is often best to delete the variable and inline the originating expression.
+- [Inline variable](https://github.com/kaiosilveira/inline-variable-refactoring): sometimes a variable is as clear and short as the expression it is derived from, and sometimes it gets in the way of refactoring the code surrounding it. In these cases, it is often best to delete the variable and inline the originating expression.
 
-- [Change function declaration](https://github.com/kaiosilveira/change-function-declaration-refactoring): 🚧 WIP 🚧
+- [Change function declaration](https://github.com/kaiosilveira/change-function-declaration-refactoring): sometimes we want to rename a function or change its parameters' structure, but it's being referenced by a lot of different files and in different ways. This refactoring helps with an approach for these cases.
 
 ## Disclaimer
 
