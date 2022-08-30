@@ -10,3 +10,6 @@
 [submodule "inline-variable"]
 	path = inline-variable
 	url = https://github.com/kaiosilveira/inline-variable-refactoring.git
+[submodule "change-function-declaration"]
+	path = change-function-declaration
+	url = https://github.com/kaiosilveira/change-function-declaration-refactoring.git

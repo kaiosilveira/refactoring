@@ -71,6 +71,8 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Inline variable](https://github.com/kaiosilveira/inline-variable-refactoring): Sometimes a variable is as clear and short as the expression it is derived from, and sometimes it gets in the way of refactoring the code surrounding it. In this cases, it is often best to delete the variable and inline the originating expression.
 
+- [Change function declaration](https://github.com/kaiosilveira/change-function-declaration-refactoring): 🚧 WIP 🚧
+
 ## Disclaimer
 
 The main purpose of this repo is to help fixating the learnings from the book. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic.
