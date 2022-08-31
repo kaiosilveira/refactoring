@@ -13,3 +13,6 @@
 [submodule "encapsulate-variable"]
 	path = encapsulate-variable
 	url = https://github.com/kaiosilveira/encapsulate-variable-refactoring.git
+[submodule "inline-function"]
+	path = inline-function
+	url = https://github.com/kaiosilveira/inline-function-refactoring.git
