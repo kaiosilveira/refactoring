@@ -1,9 +1,6 @@
 [submodule "extract-function"]
 	path = extract-function
 	url = https://github.com/kaiosilveira/refactoring-extract-function.git
-[submodule "inline-function"]
-	path = inline-function
-	url = https://github.com/kaiosilveira/inline-function-refactoring.git
 [submodule "extract-variable"]
 	path = extract-variable
 	url = https://github.com/kaiosilveira/extract-variable-refactoring.git
