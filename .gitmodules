@@ -13,3 +13,6 @@
 [submodule "change-function-declaration"]
 	path = change-function-declaration
 	url = https://github.com/kaiosilveira/change-function-declaration-refactoring.git
+[submodule "encapsulate-variable"]
+	path = encapsulate-variable
+	url = https://github.com/kaiosilveira/encapsulate-variable-refactoring.git
