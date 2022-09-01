@@ -25,6 +25,7 @@ To keep things clean and to make each refactoring as detailed and precise as pos
 - a shortened (`git log --oneline`) git history of the commits made
 
 **Programming language**
+
 The chosen programming language for implementing all patterns is Javascript on top of NodeJS. This matches what Fowler brings in the second edition of his book.
 To reduce boilerplate and focus on the refactoring explanation, all the repositories have roughly the same structure, with minimum external dependencies (only `jest` in most cases) and no transpilation / build step.
 
