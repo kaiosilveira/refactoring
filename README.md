@@ -80,7 +80,7 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Change function declaration](https://github.com/kaiosilveira/change-function-declaration-refactoring): sometimes we want to rename a function or change its parameters' structure, but it's being referenced by a lot of different files and in different ways. This refactoring helps with an approach for these cases.
 
-- [Encapsulate variable](https://github.com/kaiosilveira/encapsulate-variable-refactoring): 🚧 **WIP** 🚧 Global variables are a well-known pain in the development world, not only because it is hard to reason about and keep track of, but also because when the time comes to change it, it's really hard to apply a straightforward, clean refactoring, due to a lot of problems that arise as soon as we touch them. This refactoring provides a strategy to deal with these cases.
+- [Encapsulate variable](https://github.com/kaiosilveira/encapsulate-variable-refactoring): Global variables are a well-known pain in the development world, not only because it is hard to reason about and keep track of, but also because when the time comes to change it, it's really hard to apply a straightforward, clean refactoring, due to a lot of problems that arise as soon as we touch them. This refactoring provides a strategy to deal with these cases.
 
 ## Disclaimer
 
