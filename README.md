@@ -20,11 +20,15 @@ To keep things clean and to make each refactoring as detailed and precise as pos
 
 - a brief description on the motivation of the refactoring
 - a "Working example" section containing the sample code we will be working with, including a "before / after" comparison
-- a shortened (`git log --oneline`) git history of the commits made
 - a "test suite" section, explaining which unit tests were added to support the refactoring work (please note that these tests may differ from what's in the working examples from Fowler's website because I didn't use them as a reference)
 - a step by step description of the refactoring process, including `git diff`s for each step
+- a shortened (`git log --oneline`) git history of the commits made
 
-Regarding tests, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. The `ci.yml` file is pretty simple:
+**Programming language**
+The chosen programming language for implementing all patterns is Javascript on top of NodeJS. This matches what Fowler brings in the second edition of his book.
+To reduce boilerplate and focus on the refactoring explanation, all the repositories have roughly the same structure, with minimum external dependencies (only `jest` in most cases) and no transpilation / build step.
+
+Regarding continuous integration, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. The `ci.yml` file is pretty simple:
 
 ```yml
 name: CI
@@ -56,6 +60,8 @@ jobs:
       - name: Run unit tests
         run: npm run test
 ```
+
+This file is used for every refactoring repo.
 
 Also, while performing the refactorings, I always kept the test suite running, so I could have a quick feedback when something went wrong.
 
