@@ -16,3 +16,6 @@
 [submodule "inline-function"]
 	path = inline-function
 	url = https://github.com/kaiosilveira/inline-function-refactoring.git
+[submodule "rename-variable"]
+	path = rename-variable
+	url = https://github.com/kaiosilveira/rename-variable-refactoring.git

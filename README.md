@@ -82,6 +82,8 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Encapsulate variable](https://github.com/kaiosilveira/encapsulate-variable-refactoring): Global variables are a well-known pain in the development world, not only because it is hard to reason about and keep track of, but also because when the time comes to change it, it's really hard to apply a straightforward, clean refactoring, due to a lot of problems that arise as soon as we touch them. This refactoring provides a strategy to deal with these cases.
 
+- [Rename variable](https://github.com/kaiosilveira/rename-variable-refactoring): Variable names are one of the most important aspects of our software systems. They play an integral role on explaining for code readers what a given piece of code does and how things relate to each other. Usually, as our knowledge about the domain evolve, a natural need to changing variable names to better reflect both our understanding and the actual behavior of the system arise.
+
 ## Disclaimer
 
 The main purpose of this repo is to help fixating the learnings from the book. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic.
