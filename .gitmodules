@@ -19,3 +19,6 @@
 [submodule "rename-variable"]
 	path = rename-variable
 	url = https://github.com/kaiosilveira/rename-variable-refactoring.git
+[submodule "introduce-parameter-object"]
+	path = introduce-parameter-object
+	url = https://github.com/kaiosilveira/introduce-parameter-object-refactoring.git

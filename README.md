@@ -84,6 +84,8 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Rename variable](https://github.com/kaiosilveira/rename-variable-refactoring): Variable names are one of the most important aspects of our software systems. They play an integral role on explaining for code readers what a given piece of code does and how things relate to each other. Usually, as our knowledge about the domain evolve, a natural need to changing variable names to better reflect both our understanding and the actual behavior of the system arise.
 
+- [Introduce Parameter Object](https://github.com/kaiosilveira/introduce-parameter-object-refactoring): Oftentimes we see a group of parameters being used repeatedly as arguments for multiple functions. These groups are often suggesting a hidden structure inside the project's domain. When this pattern is detected, we can use **Introduce Parameter Object** to create a class based on these parameters and to use it instead.
+
 ## Disclaimer
 
 The main purpose of this repo is to help fixating the learnings from the book. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic.
