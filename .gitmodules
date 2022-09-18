@@ -22,3 +22,6 @@
 [submodule "introduce-parameter-object"]
 	path = introduce-parameter-object
 	url = https://github.com/kaiosilveira/introduce-parameter-object-refactoring.git
+[submodule "combine-functions-into-class"]
+	path = combine-functions-into-class
+	url = https://github.com/kaiosilveira/combine-functions-into-class-refactoring.git
