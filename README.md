@@ -88,6 +88,8 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Combine Functions into Class](https://github.com/kaiosilveira/combine-functions-into-class-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In this cases, there is sometimes a hidden class waiting for being discovered.
 
+- [Combine Functions into Transform](https://github.com/kaiosilveira/combine-functions-into-transform-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In this cases, we can create a higher order transform function to wrap this bigger aspect and keep all clients consistent.
+
 ## Disclaimer
 
 The main purpose of this repo is to help fixating the learnings from the book. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic.
