@@ -25,3 +25,6 @@
 [submodule "combine-functions-into-class"]
 	path = combine-functions-into-class
 	url = https://github.com/kaiosilveira/combine-functions-into-class-refactoring.git
+[submodule "combine-functions-into-transform"]
+	path = combine-functions-into-transform
+	url = https://github.com/kaiosilveira/combine-functions-into-transform.git
