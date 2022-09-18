@@ -28,3 +28,6 @@
 [submodule "combine-functions-into-transform"]
 	path = combine-functions-into-transform
 	url = https://github.com/kaiosilveira/combine-functions-into-transform.git
+[submodule "split-phase"]
+	path = split-phase
+	url = https://github.com/kaiosilveira/split-phase-refactoring.git

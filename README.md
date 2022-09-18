@@ -90,6 +90,8 @@ This catalog explains in detail (and with working code) the various strategies p
 
 - [Combine Functions into Transform](https://github.com/kaiosilveira/combine-functions-into-transform-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In this cases, we can create a higher order transform function to wrap this bigger aspect and keep all clients consistent.
 
+- [Split Phase](https://github.com/kaiosilveira/split-phase-refactoring): We often find code that's doing more than one thing. Sometimes in a clear order and with some separation to help readers understand what's going on, some other times, without worrying much. When we come across code like this, we often want to make it more clear and readable so we don't have to load our brain with the full context and can rather focus on specific parts.
+
 ## Disclaimer
 
 The main purpose of this repo is to help fixating the learnings from the book. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic.
