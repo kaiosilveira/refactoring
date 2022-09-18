@@ -68,7 +68,11 @@ Also, while performing the refactorings, I always kept the test suite running, s
 
 ## The refactoring catalog
 
-This catalog explains in detail (and with working code) the various strategies presented in the book. The examples used here are the same as the ones in the book, with some slight changes when applicable.
+This catalog explains in detail (and with actual working code) the various strategies presented in the book. The examples used here are the same as the ones in the book, with some slight changes when applicable.
+
+**A first set of refactorings**
+
+The refactorings listed below are considered "essential" ones and were probably used by all readers at some point. They form the foundation for the more involved and complicated refactorings and also help creating the refactoring mindset, specially the attention to details and the concerns regarding keeping the code in a working state and the test suites passing as we go:
 
 - [Extract function](https://github.com/kaiosilveira/extract-function-refactoring): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
 
