@@ -1,4 +1,4 @@
-**🚧 This repository is a work in progress and is being constantly updated. Stay tuned! 🚧**
+🚧 **This repository is a work in progress. Check out its roadmap at [Refactoring Catalog Roadmap](https://github.com/users/kaiosilveira/projects/1/views/1) for an overview of what's in progress and an estimate of the remaining work** 🚧
 
 ℹ️ _This repository is a working implementation of the refactoring patterns described in the "Refactoring" book, by Martin Fowler. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic._
 
