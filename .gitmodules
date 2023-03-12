@@ -31,3 +31,6 @@
 [submodule "split-phase"]
 	path = split-phase
 	url = https://github.com/kaiosilveira/split-phase-refactoring.git
+[submodule "encapsulate-record-refactoring"]
+	path = encapsulate-record-refactoring
+	url = https://github.com/kaiosilveira/encapsulate-record-refactoring
