@@ -70,7 +70,7 @@ Also, while performing the refactorings, I always kept the test suite running, s
 
 This catalog explains in detail (and with actual working code) the various strategies presented in the book. The examples used here are the same as the ones in the book, with some slight changes when applicable.
 
-**A first set of refactorings**
+### A first set of refactorings
 
 The refactorings listed below are considered "essential" ones and were probably used by all readers at some point. They form the foundation for the more involved and complicated refactorings and also help creating the refactoring mindset, specially the attention to details and the concerns regarding keeping the code in a working state and the test suites passing as we go:
 
@@ -95,6 +95,12 @@ The refactorings listed below are considered "essential" ones and were probably 
 - [Combine Functions into Transform](https://github.com/kaiosilveira/combine-functions-into-transform-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In this cases, we can create a higher order transform function to wrap this bigger aspect and keep all clients consistent.
 
 - [Split Phase](https://github.com/kaiosilveira/split-phase-refactoring): We often find code that's doing more than one thing. Sometimes in a clear order and with some separation to help readers understand what's going on, some other times, without worrying much. When we come across code like this, we often want to make it more clear and readable so we don't have to load our brain with the full context and can rather focus on specific parts.
+
+### Encapsulation
+
+Encapsulation is one of the core concepts of Object-Oriented Programming and is often related to well-modularized code. With encapsulation, we are in full control of our data structures, being sure that any changes to it will have to go through its wrapper, allowing for expansion and gradual modification and deprecation.
+
+- [Encapsulate record](https://github.com/kaiosilveira/encapsulate-record-refactoring): When working with a data record, it is often easy to loose sight of how it's being accessed and mofidied throughout our application. This refactoring suggests a solution to this problem and provide a step-by-step buide on how to encapsulate our existing raw data records.
 
 ## Appendix: Useful commands
 
