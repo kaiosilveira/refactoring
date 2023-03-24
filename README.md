@@ -102,6 +102,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Encapsulate record](https://github.com/kaiosilveira/encapsulate-record-refactoring): When working with a data record, it is often easy to lose sight of how it's being accessed and modified throughout our application. This refactoring suggests a solution to this problem and provides a step-by-step guide on how to encapsulate our existing raw data records.
 
+- [Encapsulate collection](https://github.com/kaiosilveira/encapsulate-collection-refactoring): Sometimes our code already has a good level of encapsulation: we have classes protecting the access to records and we are providing getters and setters when appropriate. Then, it turns out that one of these getters is returning a collection. Providing raw access to our original nested data structures can be tricky[<sup>[1]</sup>](https://github.com/kaiosilveira/encapsulate-variable-refactoring/tree/099d816c773ebb72232cb1f0744e32bfbf300628#example-2-complex-objects), as unwanted side effects can creep up as hard-to-debug problems. This refactoring provides general guidelines on how to avoid this problem.
+
 ## Appendix: Useful commands
 
 - fetch all submodules after cloning this repository for the first time in a machine:
