@@ -37,3 +37,6 @@
 [submodule "encapsulate-collection"]
 	path = encapsulate-collection
 	url = https://github.com/kaiosilveira/encapsulate-collection-refactoring.git
+[submodule "replace-primitive-with-object"]
+	path = replace-primitive-with-object
+	url = https://github.com/kaiosilveira/replace-primitive-with-object-refactoring.git
