@@ -104,6 +104,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Encapsulate collection](https://github.com/kaiosilveira/encapsulate-collection-refactoring): Sometimes our code already has a good level of encapsulation: we have classes protecting the access to records and we are providing getters and setters when appropriate. Then, it turns out that one of these getters is returning a collection. Providing raw access to our original nested data structures can be tricky[<sup>[1]</sup>](https://github.com/kaiosilveira/encapsulate-variable-refactoring/tree/099d816c773ebb72232cb1f0744e32bfbf300628#example-2-complex-objects), as unwanted side effects can creep up as hard-to-debug problems. This refactoring provides general guidelines on how to avoid this problem.
 
+- [Replace primitive with object](https://github.com/kaiosilveira/replace-primitive-with-object-refactoring): Often enough, we start modeling things as simple data records, such strings and numbers, just to find out later that it wasn't really that "simple". This phenomenae often leads us to implement duplicated code throughout the codebase, specially to perform validations and comparisons. This refactoring helps refactoring in these embarassing situations.
+
 ## Appendix: Useful commands
 
 - fetch all submodules after cloning this repository for the first time in a machine:
