@@ -40,3 +40,6 @@
 [submodule "replace-primitive-with-object"]
 	path = replace-primitive-with-object
 	url = https://github.com/kaiosilveira/replace-primitive-with-object-refactoring.git
+[submodule "replace-temp-with-query"]
+	path = replace-temp-with-query
+	url = https://github.com/kaiosilveira/replace-temp-with-query-refactoring.git

@@ -106,6 +106,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Replace primitive with object](https://github.com/kaiosilveira/replace-primitive-with-object-refactoring): Often enough, we start modeling things as simple data records, such strings and numbers, just to find out later that it wasn't really that "simple". This phenomenae often leads us to implement duplicated code throughout the codebase, specially to perform validations and comparisons. This refactoring helps refactoring in these embarassing situations.
 
+- [Replace temp with query](https://github.com/kaiosilveira/replace-temp-with-query-refactoring): Sometimes we find it useful to use temporary variables, they help us capture the meaning of involved expressions and also help us to refer to a chunk of computation later. In some situations, though, they're not enough. Sometimes we want to compute a value based on a specific context, so creating multiple temp variables would be less than ideal. In these cases, it's often better to replace the temp with a query.
+
 ## Appendix: Useful commands
 
 - fetch all submodules after cloning this repository for the first time in a machine:
