@@ -108,7 +108,7 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Replace temp with query](https://github.com/kaiosilveira/replace-temp-with-query-refactoring): Sometimes we find it useful to use temporary variables, they help us capture the meaning of involved expressions and also help us to refer to a chunk of computation later. In some situations, though, they're not enough. Sometimes we want to compute a value based on a specific context, so creating multiple temp variables would be less than ideal. In these cases, it's often better to replace the temp with a query.
 
-## Appendix: Useful commands
+## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
 
