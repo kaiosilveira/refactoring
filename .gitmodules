@@ -43,3 +43,9 @@
 [submodule "replace-temp-with-query"]
 	path = replace-temp-with-query
 	url = https://github.com/kaiosilveira/replace-temp-with-query-refactoring.git
+[submodule "extract-class"]
+	path = extract-class
+	url = https://github.com/kaiosilveira/extract-class-refactoring.git
+[submodule "inline-class"]
+	path = inline-class
+	url = https://github.com/kaiosilveira/inline-class-refactoring.git

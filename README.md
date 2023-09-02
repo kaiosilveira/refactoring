@@ -108,6 +108,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Replace temp with query](https://github.com/kaiosilveira/replace-temp-with-query-refactoring): Sometimes we find it useful to use temporary variables, they help us capture the meaning of involved expressions and also help us to refer to a chunk of computation later. In some situations, though, they're not enough. Sometimes we want to compute a value based on a specific context, so creating multiple temp variables would be less than ideal. In these cases, it's often better to replace the temp with a query.
 
+- [Extract class](https://github.com/kaiosilveira/extract-class-refactoring): Classes inevitably grow, and as they grow, their "single responsibilities" get larger and larger, blurring the idea of "single" as well as the idea of "responsibility". Often enough, we find ourselves looking to a class that has clusters of functionality that speak to separate concerns. In these cases, it's better to extract these concerns into separate classes. The result? Each one of them will be smaller, more focused and less susceptible to bloating.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
