@@ -110,6 +110,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Extract class](https://github.com/kaiosilveira/extract-class-refactoring): Classes inevitably grow, and as they grow, their "single responsibilities" get larger and larger, blurring the idea of "single" as well as the idea of "responsibility". Often enough, we find ourselves looking to a class that has clusters of functionality that speak to separate concerns. In these cases, it's better to extract these concerns into separate classes. The result? Each one of them will be smaller, more focused and less susceptible to bloating.
 
+- [Inline class](https://github.com/kaiosilveira/inline-class-refactoring): As a result of the flexibility we have in healthy codebases, we often move things around to test new ideas, to better isolate responsibilities, and/or to reallocate behavior throughout our layers. Sometimes, though, we go too far. This refactoring helps in these cases where we want to merge two or more classes into a single unit.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

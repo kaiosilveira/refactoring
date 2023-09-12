@@ -48,4 +48,4 @@
 	url = https://github.com/kaiosilveira/extract-class-refactoring.git
 [submodule "inline-class"]
 	path = inline-class
-	url = https://github.com/kaiosilveira/inline-class-refactoring.git
+	url = https://github.com/kaiosilveira/inline-class-refactoring
