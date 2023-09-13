@@ -112,6 +112,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Inline class](https://github.com/kaiosilveira/inline-class-refactoring): As a result of the flexibility we have in healthy codebases, we often move things around to test new ideas, to better isolate responsibilities, and/or to reallocate behavior throughout our layers. Sometimes, though, we go too far. This refactoring helps in these cases where we want to merge two or more classes into a single unit.
 
+- [Hide delegate](https://github.com/kaiosilveira/hide-delegate-refactoring): Encapsulation is in the roots of good code design, it helps in keeping coupling low by hiding the internal details of a given class / module, which allows for better and safer refactorings, freedom for exploring new ideas (which eventually leads to deeper, more supple domain models). This refactoring sheds some light into how to hide our delegates, therefore keeping our data encapsulated.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

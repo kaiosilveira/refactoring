@@ -49,3 +49,6 @@
 [submodule "inline-class"]
 	path = inline-class
 	url = https://github.com/kaiosilveira/inline-class-refactoring
+[submodule "hide-delegate"]
+	path = hide-delegate
+	url = https://github.com/kaiosilveira/hide-delegate-refactoring.git
