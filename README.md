@@ -24,7 +24,7 @@ To keep things clean and to make each refactoring as detailed and precise as pos
 - a step-by-step description of the refactoring process, including `git diff`s for each step
 - a shortened (`git log --oneline`) git history of the commits made
 
-Most part of these sub repos were created based on a **[template](https://github.com/kaiosilveira/refactoring-catalog-template)** that sets up most of the boilerplate code and documentation needed to proper document each refactoring. This strategy was a big time saver and helped me move quickly and efficiently through the several refactorings.
+To speed things up a bit, I developed **[a template](https://github.com/kaiosilveira/refactoring-catalog-template)** that sets up most of the boilerplate code and documentation needed to proper document each refactoring. This strategy was a big time saver and helped me move quickly and efficiently through the several refactorings.
 
 **Programming language**
 
