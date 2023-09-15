@@ -52,3 +52,9 @@
 [submodule "hide-delegate"]
 	path = hide-delegate
 	url = https://github.com/kaiosilveira/hide-delegate-refactoring.git
+[submodule "remmove-middle-man"]
+	path = remmove-middle-man
+	url = https://github.com/kaiosilveira/remove-middle-man-refactoring.git
+[submodule "remove-middle-man"]
+	path = remove-middle-man
+	url = https://github.com/kaiosilveira/remove-middle-man-refactoring.git

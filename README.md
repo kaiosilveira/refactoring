@@ -114,6 +114,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Hide delegate](https://github.com/kaiosilveira/hide-delegate-refactoring): Encapsulation is in the roots of good code design, it helps in keeping coupling low by hiding the internal details of a given class / module, which allows for better and safer refactorings, freedom for exploring new ideas (which eventually leads to deeper, more supple domain models). This refactoring sheds some light into how to hide our delegates, therefore keeping our data encapsulated.
 
+- [Remove middle man](https://github.com/kaiosilveira/remove-middle-man-refactoring): Encapsulation comes with a price: many small chunks of code hiding internal details and doing tiny bits of processing here and there. Although it's a good guideline to keep our code encapsulated and modular enough, there's always a blurred space where these guidelines can take us too far. This refactoring helps to revert our path when we find ourselves in this situation.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
