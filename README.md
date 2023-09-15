@@ -118,6 +118,8 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Remove middle man](https://github.com/kaiosilveira/remove-middle-man-refactoring): Encapsulation comes with a price: many small chunks of code hiding internal details and doing tiny bits of processing here and there. Although it's a good guideline to keep our code encapsulated and modular enough, there's always a blurred space where these guidelines can take us too far. This refactoring helps to revert our path when we find ourselves in this situation.
 
+- [Substitute algorithm](https://github.com/kaiosilveira/substitute-algorithm-refactoring): Sometimes we try our best to improve a piece of code, but it's not enough. Some other times, we take a look at a piece of logic and identify straightaway an easier, more readable way of implementing it. This refactoring helps us in these cases.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

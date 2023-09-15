@@ -58,3 +58,6 @@
 [submodule "remove-middle-man"]
 	path = remove-middle-man
 	url = https://github.com/kaiosilveira/remove-middle-man-refactoring.git
+[submodule "substitute-algorithm"]
+	path = substitute-algorithm
+	url = https://github.com/kaiosilveira/substitute-algorithm-refactoring.git
