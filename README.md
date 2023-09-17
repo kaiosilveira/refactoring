@@ -1,6 +1,6 @@
 🚧 **This repository is a work in progress. Check out its roadmap at [Refactoring Catalog Roadmap](https://github.com/users/kaiosilveira/projects/1/views/1) for an overview of what's in progress and an estimate of the remaining work** 🚧
 
-ℹ️ _This repository is a working implementation of the refactoring patterns described in the "Refactoring" book, by Martin Fowler. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic._
+ℹ️ _DISCLAIMER: This repository is a working implementation of the refactoring patterns as described in the "Refactoring" book, by Martin Fowler. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic._
 
 # Refactoring
 
@@ -12,7 +12,9 @@ _\*destructive: By "destructive" here I mean any change to the code that makes i
 
 ## What is refactoring?
 
-"Refactoring is the process of changing a software system in a way that does not alter the external behavior of the code yet improves its internal structure. It is a **disciplined way** to clean up code that minimizes the chances of introducing bugs. In essence, when you refactor, you are improving the design of the code after it has been written" - Fowler, Martin @ Refactoring
+> Refactoring is the process of changing a software system in a way that does not alter the external behavior of the code yet improves its internal structure. It is a **disciplined way** to clean up code that minimizes the chances of introducing bugs. In essence, when you refactor, you are improving the design of the code after it has been written
+
+— Fowler, Martin @ Refactoring
 
 ## Technical details and repo structure
 
@@ -24,49 +26,22 @@ To keep things clean and to make each refactoring as detailed and precise as pos
 - a step-by-step description of the refactoring process, including `git diff`s for each step
 - a shortened (`git log --oneline`) git history of the commits made
 
-To speed things up a bit, I developed **[a template](https://github.com/kaiosilveira/refactoring-catalog-template)** that sets up most of the boilerplate code and documentation needed to proper document each refactoring. This strategy was a big time saver and helped me move quickly and efficiently through the several refactorings.
+### Development environment
 
-**Programming language**
+To speed things up a bit and making use of one of GitHub's most useful features implemented in recent times, I developed **[a template repository](https://github.com/kaiosilveira/refactoring-catalog-template)** that sets up most of the boilerplate code and documentation needed to proper implement each refactoring. This strategy was a big time saver and helped me move quickly and efficiently through the several refactorings.
 
-The chosen programming language for implementing all patterns is Javascript on top of NodeJS. This matches what Fowler brings in the second edition of his book.
+### Programming language
+
+The chosen programming language for implementing all patterns is Javascript on top of NodeJS. This matches to what Fowler brings in the second edition of his book.
 To reduce boilerplate and focus on the refactoring explanation, all the repositories have roughly the same structure, with minimum external dependencies (only `jest` in most cases) and no transpilation / build step.
 
-Regarding continuous integration, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. The `ci.yml` file is pretty simple:
+### Continuous integration
 
-```yml
-name: CI
+Regarding continuous integration, a simple GitHub Actions pipeline was put in place to make sure that every commit pushed to `main` is a healthy change. Also, while performing the refactorings, I always kept the test suite running, so I could have quick feedback when something went wrong.
 
-on:
-  push:
-    branches: [main]
+### CLI tools
 
-jobs:
-  Integration:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
-    steps:
-      - name: Check out the repository
-        uses: actions/checkout@v2
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run unit tests
-        run: npm run test
-```
-
-This file is used for every refactoring repo.
-
-Also, while performing the refactorings, I always kept the test suite running, so I could have quick feedback when something went wrong.
+I also **[developed](https://github.com/kaiosilveira/refactoring-catalog-cli)** and **[published](https://github.com/users/kaiosilveira/packages/npm/package/refactoring-catalog-cli)** a simple Command Line Interface (CLI) tool to assist with some useful commands, such as genrating the commit history table for each repo. This tool is installed as a dependency in the base template mentioned above, so all refactorings created off of the template already inherits its features.
 
 ## The refactoring catalog
 
