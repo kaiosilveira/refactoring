@@ -6,7 +6,7 @@
 
 Throughout my entire career, I've seen experienced engineers making the mistake of performing destructive\* changes in a code base and committing it as "refactoring". I'm no different and have done it myself more times than I can count. After reading the book and understanding in-depth what "refactoring" means as a discipline, I started to pay way more attention to the small details involved in changing existing code, either when aiming to improve its readability and architecture or when adding new functionality. Fowler mentions the "two hats" in the book as a metaphor to explain that we should do one thing at a time: we are either refactoring or introducing new code / changing behavior, but we should always try to avoid performing both actions at once.
 
-Another key aspect of refactoring is that although we can do it in a codebase that doesn't contain at least unit tests, it would be way harder, both psychologically and practically. Psychologically because we will constantly feel unsure about whether our changes are good and didn't change anything (unless we spend a lot of time doing manual, error-prone testing, of course). And practically because we would be potentially creating demand for reworks, introducing bugs that will haunt us in the future or even messing up with the commit history and clarity. These are the main points that highlight the importance of a healthy test suite around a given code base to allow a refactoring session to be pleasant and productive.
+Another key aspect of refactoring is that although we can do it in a codebase that doesn't contain at least unit tests, it would be way harder, both psychologically and practically. "Psychologically" because we will constantly feel unsure about whether our changes are good and didn't change anything (unless we spend a lot of time doing manual, error-prone testing, of course). And "practically" because we would be potentially creating demand for reworks, introducing bugs that will haunt us in the future or even messing up with the commit history and clarity. These are the main points that highlight the importance of a healthy test suite around a given code base to allow a refactoring session to be pleasant and productive.
 
 _\*destructive: By "destructive" here I mean any change to the code that makes it different from the original one, in terms of external behavior. From this point of view, we could be performing a destructive action even if we are only adding new, bug-free, functionality. It's an aggressive approach, but I think it helps illustrate the problem space and highlights the importance of the small steps._
 
@@ -28,11 +28,11 @@ To keep things clean and to make each refactoring as detailed and precise as pos
 
 ### Development environment
 
-To speed things up a bit and making use of one of GitHub's most useful features implemented in recent times, I developed **[a template repository](https://github.com/kaiosilveira/refactoring-catalog-template)** that sets up most of the boilerplate code and documentation needed to proper implement each refactoring. This strategy was a big time saver and helped me move quickly and efficiently through the several refactorings.
+To speed things up a bit and make use of one of GitHub's most useful features implemented in recent times, I developed **[a template repository](https://github.com/kaiosilveira/refactoring-catalog-template)** that sets up most of the boilerplate code and documentation needed to properly implement each refactoring. This strategy was a big time saver and helped me move quickly and efficiently through several refactorings.
 
 ### Programming language
 
-The chosen programming language for implementing all patterns is Javascript on top of NodeJS. This matches to what Fowler brings in the second edition of his book.
+The chosen programming language for implementing all patterns is Javascript on top of NodeJS. This matches what Fowler brings in the second edition of his book.
 To reduce boilerplate and focus on the refactoring explanation, all the repositories have roughly the same structure, with minimum external dependencies (only `jest` in most cases) and no transpilation / build step.
 
 ### Continuous integration
@@ -41,7 +41,7 @@ Regarding continuous integration, a simple GitHub Actions pipeline was put in pl
 
 ### CLI tools
 
-I also **[developed](https://github.com/kaiosilveira/refactoring-catalog-cli)** and **[published](https://github.com/users/kaiosilveira/packages/npm/package/refactoring-catalog-cli)** a simple Command Line Interface (CLI) tool to assist with some useful commands, such as genrating the commit history table for each repo. This tool is installed as a dependency in the base template mentioned above, so all refactorings created off of the template already inherits its features.
+I also **[developed](https://github.com/kaiosilveira/refactoring-catalog-cli)** and **[published](https://github.com/users/kaiosilveira/packages/npm/package/refactoring-catalog-cli)** a simple Command Line Interface (CLI) tool to assist with some useful commands, such as generating the commit history table for each repo. This tool is installed as a dependency in the base template mentioned above, so all refactorings created off of the template already inherit its features.
 
 ## The refactoring catalog
 
@@ -53,7 +53,7 @@ The refactorings listed below are considered "essential" ones and were probably 
 
 - [Extract function](https://github.com/kaiosilveira/extract-function-refactoring): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
 
-- [Inline function](https://github.com/kaiosilveira/inline-function-refactoring): sometimes a short function's body is as clear as its name, in these cases we often want to inline it and be more idiomatic instead of performing a function call.
+- [Inline function](https://github.com/kaiosilveira/inline-function-refactoring): sometimes a short function's body is as clear as its name, in these cases, we often want to inline it and be more idiomatic instead of performing a function call.
 
 - [Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring): sometimes expressions become hard to read and add a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret a given piece of code, replacing an expression with well-structured text.
 
@@ -63,11 +63,11 @@ The refactorings listed below are considered "essential" ones and were probably 
 
 - [Encapsulate variable](https://github.com/kaiosilveira/encapsulate-variable-refactoring): Global variables are a well-known pain in the development world, not only because it is hard to reason about and keep track of, but also because when the time comes to change it, it's really hard to apply a straightforward, clean refactoring, due to a lot of problems that arise as soon as we touch them. This refactoring provides a strategy to deal with these cases.
 
-- [Rename variable](https://github.com/kaiosilveira/rename-variable-refactoring): Variable names are one of the most important aspects of our software systems. They play an integral role in explaining to code readers what a given piece of code does and how things relate to each other. Usually, as our knowledge about the domain evolves, a natural need to change variable names to better reflect both our understanding and the actual behavior of the system arise.
+- [Rename variable](https://github.com/kaiosilveira/rename-variable-refactoring): Variable names are one of the most important aspects of our software systems. They play an integral role in explaining to code readers what a given piece of code does and how things relate to each other. Usually, as our knowledge about the domain evolves, a natural need to change variable names to better reflect both our understanding and the actual behavior of the system arises.
 
 - [Introduce Parameter Object](https://github.com/kaiosilveira/introduce-parameter-object-refactoring): Oftentimes we see a group of parameters being used repeatedly as arguments for multiple functions. These groups are often suggesting a hidden structure inside the project's domain. When this pattern is detected, we can use **Introduce Parameter Object** to create a class based on these parameters and use it instead.
 
-- [Combine Functions into Class](https://github.com/kaiosilveira/combine-functions-into-class-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well-defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In these cases, there is sometimes a hidden class waiting for being discovered.
+- [Combine Functions into Class](https://github.com/kaiosilveira/combine-functions-into-class-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well-defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In these cases, there is sometimes a hidden class waiting to be discovered.
 
 - [Combine Functions into Transform](https://github.com/kaiosilveira/combine-functions-into-transform-refactoring): Sometimes we see groups of functions repeatedly operating together over a chunk of data. These functions may be independent and well-defined, but their responsibilities are tightly related to some other, bigger aspect of a piece of computation. In these cases, we can create a higher-order transform function to wrap up this bigger aspect and keep all clients consistent.
 
@@ -75,13 +75,13 @@ The refactorings listed below are considered "essential" ones and were probably 
 
 ### Encapsulation
 
-Encapsulation is one of the core concepts of Object-Oriented Programming and is often related to well-modularized code. With encapsulation, we are in full control of our data structures, being sure that any changes to it will have to go through its wrapper, allowing for expansion and gradual modification and deprecation.
+Encapsulation is one of the core concepts of Object-Oriented Programming and is often related to well-modularized code. With encapsulation, we are in full control of our data structures, being sure that any changes to it will have to go through its wrapper, allowing for expansion, gradual modification and deprecation.
 
 - [Encapsulate record](https://github.com/kaiosilveira/encapsulate-record-refactoring): When working with a data record, it is often easy to lose sight of how it's being accessed and modified throughout our application. This refactoring suggests a solution to this problem and provides a step-by-step guide on how to encapsulate our existing raw data records.
 
 - [Encapsulate collection](https://github.com/kaiosilveira/encapsulate-collection-refactoring): Sometimes our code already has a good level of encapsulation: we have classes protecting the access to records and we are providing getters and setters when appropriate. Then, it turns out that one of these getters is returning a collection. Providing raw access to our original nested data structures can be tricky[<sup>[1]</sup>](https://github.com/kaiosilveira/encapsulate-variable-refactoring/tree/099d816c773ebb72232cb1f0744e32bfbf300628#example-2-complex-objects), as unwanted side effects can creep up as hard-to-debug problems. This refactoring provides general guidelines on how to avoid this problem.
 
-- [Replace primitive with object](https://github.com/kaiosilveira/replace-primitive-with-object-refactoring): Often enough, we start modeling things as simple data records, such strings and numbers, just to find out later that it wasn't really that "simple". This phenomenae often leads us to implement duplicated code throughout the codebase, specially to perform validations and comparisons. This refactoring helps refactoring in these embarassing situations.
+- [Replace primitive with object](https://github.com/kaiosilveira/replace-primitive-with-object-refactoring): Often enough, we start modeling things as simple data records, such as strings and numbers, just to find out later that it wasn't really that "simple". This phenomenon often leads us to implement duplicated code throughout the codebase, especially to perform validations and comparisons. This refactoring helps refactoring in these embarrassing situations.
 
 - [Replace temp with query](https://github.com/kaiosilveira/replace-temp-with-query-refactoring): Sometimes we find it useful to use temporary variables, they help us capture the meaning of involved expressions and also help us to refer to a chunk of computation later. In some situations, though, they're not enough. Sometimes we want to compute a value based on a specific context, so creating multiple temp variables would be less than ideal. In these cases, it's often better to replace the temp with a query.
 
@@ -89,11 +89,17 @@ Encapsulation is one of the core concepts of Object-Oriented Programming and is 
 
 - [Inline class](https://github.com/kaiosilveira/inline-class-refactoring): As a result of the flexibility we have in healthy codebases, we often move things around to test new ideas, to better isolate responsibilities, and/or to reallocate behavior throughout our layers. Sometimes, though, we go too far. This refactoring helps in these cases where we want to merge two or more classes into a single unit.
 
-- [Hide delegate](https://github.com/kaiosilveira/hide-delegate-refactoring): Encapsulation is in the roots of good code design, it helps in keeping coupling low by hiding the internal details of a given class / module, which allows for better and safer refactorings, freedom for exploring new ideas (which eventually leads to deeper, more supple domain models). This refactoring sheds some light into how to hide our delegates, therefore keeping our data encapsulated.
+- [Hide delegate](https://github.com/kaiosilveira/hide-delegate-refactoring): Encapsulation is at the roots of good code design, it helps in keeping coupling low by hiding the internal details of a given class/module, which allows for better and safer refactorings, and freedom for exploring new ideas (which eventually leads to deeper, more supple domain models). This refactoring sheds some light on how to hide our delegates, therefore keeping our data encapsulated.
 
 - [Remove middle man](https://github.com/kaiosilveira/remove-middle-man-refactoring): Encapsulation comes with a price: many small chunks of code hiding internal details and doing tiny bits of processing here and there. Although it's a good guideline to keep our code encapsulated and modular enough, there's always a blurred space where these guidelines can take us too far. This refactoring helps to revert our path when we find ourselves in this situation.
 
 - [Substitute algorithm](https://github.com/kaiosilveira/substitute-algorithm-refactoring): Sometimes we try our best to improve a piece of code, but it's not enough. Some other times, we take a look at a piece of logic and identify straightaway an easier, more readable way of implementing it. This refactoring helps us in these cases.
+
+### Moving features
+
+So far, all the refactorings were about creating, removing, and editing existing elements, but part of the everyday life of every fine programmer is the habit of thinking about the previous decisions made regarding where to place things, and also leveraging existing functions and code structures to reduce duplication. The group of refactorings below helps exact with these concerns.
+
+- [Move function](https://github.com/kaiosilveira/move-function-refactoring): Good software is modular, but modularization isn't by itself static. Finding the right place for functionality is a process of trial and error that involves previous experiences, knowledge depth and, sometimes, gut instinct. This refactoring helps with the cases where we have changed our minds about where to place a function.
 
 ## Appendix: Useful commands when cloning this codebase locally
 

@@ -61,3 +61,6 @@
 [submodule "substitute-algorithm"]
 	path = substitute-algorithm
 	url = https://github.com/kaiosilveira/substitute-algorithm-refactoring.git
+[submodule "move-function"]
+	path = move-function
+	url = https://github.com/kaiosilveira/move-function-refactoring.git
