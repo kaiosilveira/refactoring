@@ -103,6 +103,8 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - [Move field](https://github.com/kaiosilveira/move-field-refactoring): Fields are the most granular representation of data in an object-oriented world. Nevertheless, defining which classes should contain which fields is often a hard task, even for experienced domain-driven architects. Hopefully, definitions aren't written in stone and, with enough codebase hygiene, moving a field from one class to another is straightforward. This refactoring brings a set of steps and considerations to help with these cases.
 
+- [Move statements into function](https://github.com/kaiosilveira/move-statements-into-function-refactoring): Duplication is one of the easiest code smells to detect and at the same time one of the most difficult ones to remove. This refactoring helps with cases where we know we can encapsulate a sequence of statements into an isolate function, but we can't do it straightaway without breaking callers.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

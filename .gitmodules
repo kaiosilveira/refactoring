@@ -67,3 +67,6 @@
 [submodule "move-field"]
 	path = move-field
 	url = https://github.com/kaiosilveira/move-field-refactoring.git
+[submodule "move-statements-into-function"]
+	path = move-statements-into-function
+	url = https://github.com/kaiosilveira/move-statements-into-function-refactoring.git
