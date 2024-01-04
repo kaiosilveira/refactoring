@@ -105,6 +105,8 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - [Move statements into function](https://github.com/kaiosilveira/move-statements-into-function-refactoring): Duplication is one of the easiest code smells to detect and at the same time one of the most difficult ones to remove. This refactoring helps with cases where we know we can encapsulate a sequence of statements into an isolate function, but we can't do it straightaway without breaking callers.
 
+- [Move statements into callers](https://github.com/kaiosilveira/move-statements-into-callers-refactoring): Programmers like encapsulating things that make sense going together, as encapsulation promotes reuse, and as we all know, the premise of reuse is at least a good excuse to have code well-factored in small logical chunks. Sometimes, though, we don't get our boundaries right at first and we need to modify our function's behavior slightly here and there. This refactoring helps in these cases.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
