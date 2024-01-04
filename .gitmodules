@@ -73,3 +73,6 @@
 [submodule "move-statements-into-callers"]
 	path = move-statements-into-callers
 	url = https://github.com/kaiosilveira/move-statements-into-callers-refactoring.git
+[submodule "replace-inline-code-with-function-call"]
+	path = replace-inline-code-with-function-call
+	url = https://github.com/kaiosilveira/replace-inline-code-with-function-call-refactoring.git
