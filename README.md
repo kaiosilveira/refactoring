@@ -109,6 +109,8 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - [Replace inline code with function call](https://github.com/kaiosilveira/replace-inline-code-with-function-call-refactoring): Sometimes (and especially in large codebases) it's common for us to find code that is doing essentially the same sequence of computations that we have already encapsulated in a nearby function. In these cases, we can simply replace this block of computation with a function call.
 
+- [Slide statements](https://github.com/kaiosilveira/slide-statements-refactoring): Code is usually read way more times than it is written, and when one is reading code, simple things such as the order in which each statement appears in the code can either aid or inhibit understanding. This tiny refactoring helps in identifying and improving such cases.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

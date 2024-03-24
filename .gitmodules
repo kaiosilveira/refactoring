@@ -76,3 +76,6 @@
 [submodule "replace-inline-code-with-function-call"]
 	path = replace-inline-code-with-function-call
 	url = https://github.com/kaiosilveira/replace-inline-code-with-function-call-refactoring.git
+[submodule "slide-statements"]
+	path = slide-statements
+	url = https://github.com/kaiosilveira/slide-statements-refactoring.git
