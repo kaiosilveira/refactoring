@@ -79,3 +79,6 @@
 [submodule "slide-statements"]
 	path = slide-statements
 	url = https://github.com/kaiosilveira/slide-statements-refactoring.git
+[submodule "split-loop"]
+	path = split-loop
+	url = https://github.com/kaiosilveira/split-loop-refactoring.git

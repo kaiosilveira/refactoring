@@ -111,6 +111,8 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - [Slide statements](https://github.com/kaiosilveira/slide-statements-refactoring): Code is usually read way more times than it is written, and when one is reading code, simple things such as the order in which each statement appears in the code can either aid or inhibit understanding. This tiny refactoring helps in identifying and improving such cases.
 
+- [Split loop](https://github.com/kaiosilveira/split-loop-refactoring): Loops are one of the most fundamental building blocks in every programming language, they are simple and flexible. But, as we know well, flexibility is a two-edged sword: it's really easy to get carried away and end up with bloated loops holding several responsibilities. This refactoring helps get rid of those cases.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
