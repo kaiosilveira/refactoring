@@ -82,3 +82,6 @@
 [submodule "split-loop"]
 	path = split-loop
 	url = https://github.com/kaiosilveira/split-loop-refactoring.git
+[submodule "replace-loop-with-pipeline"]
+	path = replace-loop-with-pipeline
+	url = https://github.com/kaiosilveira/replace-loop-with-pipeline-refactoring.git
