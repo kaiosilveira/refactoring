@@ -115,6 +115,8 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - [Replace loop with pipeline](https://github.com/kaiosilveira/replace-loop-with-pipeline-refactoring): Loops are one of the most basic programming constructs and they're present in virtually all programming languages. Sometimes, though, there are more idiomatic and programming language-specific ways to do the same task and accomplish the same results. This helps with migrating to those cases.
 
+- [Remove dead code](https://github.com/kaiosilveira/remove-dead-code-refactoring): Borrowing from the biology world, "evolution" is better seen as a series of adaptations with modifications, with these modifications always focused on optimizing fitness. The side-effects of these modifications, though, are vestigial organs. Codebases also evolve towards better fitness levels, and their equivalent of vestigial organs is dead code: code that doesn't do anything anymore but used to matter at some point in time.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

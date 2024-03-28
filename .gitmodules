@@ -85,3 +85,6 @@
 [submodule "replace-loop-with-pipeline"]
 	path = replace-loop-with-pipeline
 	url = https://github.com/kaiosilveira/replace-loop-with-pipeline-refactoring.git
+[submodule "remove-dead-code"]
+	path = remove-dead-code
+	url = https://github.com/kaiosilveira/remove-dead-code-refactoring.git
