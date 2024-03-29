@@ -88,3 +88,6 @@
 [submodule "remove-dead-code"]
 	path = remove-dead-code
 	url = https://github.com/kaiosilveira/remove-dead-code-refactoring.git
+[submodule "split-variable"]
+	path = split-variable
+	url = https://github.com/kaiosilveira/split-variable-refactoring.git

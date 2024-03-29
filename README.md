@@ -117,6 +117,12 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - [Remove dead code](https://github.com/kaiosilveira/remove-dead-code-refactoring): Borrowing from the biology world, "evolution" is better seen as a series of adaptations with modifications, with these modifications always focused on optimizing fitness. The side-effects of these modifications, though, are vestigial organs. Codebases also evolve towards better fitness levels, and their equivalent of vestigial organs is dead code: code that doesn't do anything anymore but used to matter at some point in time.
 
+### Organizing data
+
+Our programs are nothing without data: be it internally created or externally imported, holding and manipulating data is an integral part of our day-to-day work as programmers. This section is all about refactorings that help make our code more clear, legible, and precise when it comes to data manipulation.
+
+- [Split variable](https://github.com/kaiosilveira/split-variable-refactoring): Variables are dynamic and may have many uses: holding a value, holding a reference, accumulating a result, and so on. This dynamism, though, can sometimes get in the way we understand code. For a variable to be both useful and understandable, it must be contained inside one, and only one, context, and should also have only one meaning/purpose within this context. This refactoring helps with fixing problems related to the violation of this principle.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
