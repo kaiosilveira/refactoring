@@ -91,3 +91,6 @@
 [submodule "split-variable"]
 	path = split-variable
 	url = https://github.com/kaiosilveira/split-variable-refactoring.git
+[submodule "rename-field"]
+	path = rename-field
+	url = https://github.com/kaiosilveira/rename-field-refactoring

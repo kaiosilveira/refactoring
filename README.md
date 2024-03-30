@@ -123,6 +123,8 @@ Our programs are nothing without data: be it internally created or externally im
 
 - [Split variable](https://github.com/kaiosilveira/split-variable-refactoring): Variables are dynamic and may have many uses: holding a value, holding a reference, accumulating a result, and so on. This dynamism, though, can sometimes get in the way we understand code. For a variable to be both useful and understandable, it must be contained inside one, and only one, context, and should also have only one meaning/purpose within this context. This refactoring helps with fixing problems related to the violation of this principle.
 
+- [Rename field](https://github.com/kaiosilveira/rename-field-refactoring): Naming is one of the hardest things in the programming world. No matter how well we know our problem space and our domain, we will often want to rename bits of code here and there to improve clarity, legibility, and to better reflect our updated understanding. This refactoring helps with these cases.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
