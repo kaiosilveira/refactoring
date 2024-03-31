@@ -94,3 +94,6 @@
 [submodule "rename-field"]
 	path = rename-field
 	url = https://github.com/kaiosilveira/rename-field-refactoring
+[submodule "replace-derived-variable-with-query"]
+	path = replace-derived-variable-with-query
+	url = https://github.com/kaiosilveira/replace-derived-variable-with-query-refactoring.git

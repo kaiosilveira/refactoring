@@ -125,6 +125,8 @@ Our programs are nothing without data: be it internally created or externally im
 
 - [Rename field](https://github.com/kaiosilveira/rename-field-refactoring): Naming is one of the hardest things in the programming world. No matter how well we know our problem space and our domain, we will often want to rename bits of code here and there to improve clarity, legibility, and to better reflect our updated understanding. This refactoring helps with these cases.
 
+- [Replace derived variable with query](https://github.com/kaiosilveira/replace-derived-variable-with-query-refactoring): In exact sciences, we build new things on top of truth, there's the only way we can be sure our work is correct. Therefore, the source of the truth itself is paramount for all programs, and it's not difficult to understand why having multiple sources of truth brings additional confusion and complexity. This refactoring helps remove these multiple sources.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
