@@ -97,3 +97,6 @@
 [submodule "replace-derived-variable-with-query"]
 	path = replace-derived-variable-with-query
 	url = https://github.com/kaiosilveira/replace-derived-variable-with-query-refactoring.git
+[submodule "change-reference-to-value"]
+	path = change-reference-to-value
+	url = https://github.com/kaiosilveira/change-reference-to-value-refactoring.git

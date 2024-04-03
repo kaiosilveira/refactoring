@@ -127,6 +127,8 @@ Our programs are nothing without data: be it internally created or externally im
 
 - [Replace derived variable with query](https://github.com/kaiosilveira/replace-derived-variable-with-query-refactoring): In exact sciences, we build new things on top of truth, there's the only way we can be sure our work is correct. Therefore, the source of the truth itself is paramount for all programs, and it's not difficult to understand why having multiple sources of truth brings additional confusion and complexity. This refactoring helps remove these multiple sources.
 
+- [Change reference to value](https://github.com/kaiosilveira/change-reference-to-value-refactoring): Mutability is one of the most important aspects to be aware of in any software program. Ripple effects can cause hard-to-debug problems and flaky tests but, sometimes, they're exactly what we're expecting to happen. This refactoring helps in cases where we want our underlying objects (or data structures) to be immutable, therefore avoiding rippling side effects and leveraging the **[Value Object](https://github.com/kaiosilveira/poeaa-value-object)** pattern.
+
 ## Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
