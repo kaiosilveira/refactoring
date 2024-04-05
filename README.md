@@ -107,7 +107,7 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - **[Move statements into callers](https://github.com/kaiosilveira/move-statements-into-callers-refactoring)**: Programmers like encapsulating things that make sense going together, as encapsulation promotes reuse, and as we all know, the premise of reuse is at least a good excuse to have code well-factored in small logical chunks. Sometimes, though, we don't get our boundaries right at first and we need to modify our function's behavior slightly here and there. This refactoring helps in these cases.
 
-- [Replace inline code with function call](https://github.com/kaiosilveira/replace-inline-code-with-function-call-refactoring): Sometimes (and especially in large codebases) it's common for us to find code that is doing essentially the same sequence of computations that we have already encapsulated in a nearby function. In these cases, we can simply replace this block of computation with a function call.
+- **[Replace inline code with function call](https://github.com/kaiosilveira/replace-inline-code-with-function-call-refactoring)**: Sometimes (and especially in large codebases) it's common for us to find code that is doing essentially the same sequence of computations that we have already encapsulated in a nearby function. In these cases, we can simply replace this block of computation with a function call.
 
 - [Slide statements](https://github.com/kaiosilveira/slide-statements-refactoring): Code is usually read way more times than it is written, and when one is reading code, simple things such as the order in which each statement appears in the code can either aid or inhibit understanding. This tiny refactoring helps in identifying and improving such cases.
 
