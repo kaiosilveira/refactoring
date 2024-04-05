@@ -55,7 +55,7 @@ The refactorings listed below are considered "essential" ones and were probably 
 
 - **[Inline function](https://github.com/kaiosilveira/inline-function-refactoring)**: sometimes a short function's body is as clear as its name, in these cases, we often want to inline it and be more idiomatic instead of performing a function call.
 
-- [Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring): sometimes expressions become hard to read and add a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret a given piece of code, replacing an expression with well-structured text.
+- **[Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring)**: sometimes expressions become hard to read and add a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret a given piece of code, replacing an expression with well-structured text.
 
 - [Inline variable](https://github.com/kaiosilveira/inline-variable-refactoring): sometimes a variable is as clear and short as the expression it is derived from, and sometimes it gets in the way of refactoring the code surrounding it. In these cases, it is often best to delete the variable and inline the originating expression.
 
