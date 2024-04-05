@@ -111,7 +111,7 @@ So far, all the refactorings were about creating, removing, and editing existing
 
 - **[Slide statements](https://github.com/kaiosilveira/slide-statements-refactoring)**: Code is usually read way more times than it is written, and when one is reading code, simple things such as the order in which each statement appears in the code can either aid or inhibit understanding. This tiny refactoring helps in identifying and improving such cases.
 
-- [Split loop](https://github.com/kaiosilveira/split-loop-refactoring): Loops are one of the most fundamental building blocks in every programming language, they are simple and flexible. But, as we know well, flexibility is a two-edged sword: it's really easy to get carried away and end up with bloated loops holding several responsibilities. This refactoring helps get rid of those cases.
+- **[Split loop](https://github.com/kaiosilveira/split-loop-refactoring)**: Loops are one of the most fundamental building blocks in every programming language, they are simple and flexible. But, as we know well, flexibility is a two-edged sword: it's really easy to get carried away and end up with bloated loops holding several responsibilities. This refactoring helps get rid of those cases.
 
 - [Replace loop with pipeline](https://github.com/kaiosilveira/replace-loop-with-pipeline-refactoring): Loops are one of the most basic programming constructs and they're present in virtually all programming languages. Sometimes, though, there are more idiomatic and programming language-specific ways to do the same task and accomplish the same results. This helps with migrating to those cases.
 
