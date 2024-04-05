@@ -100,3 +100,6 @@
 [submodule "change-reference-to-value"]
 	path = change-reference-to-value
 	url = https://github.com/kaiosilveira/change-reference-to-value-refactoring.git
+[submodule "change-value-to-reference"]
+	path = change-value-to-reference
+	url = https://github.com/kaiosilveira/change-value-to-reference-refactoring.git
