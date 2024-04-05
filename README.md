@@ -53,7 +53,7 @@ The refactorings listed below are considered "essential" ones and were probably 
 
 - **[Extract function](https://github.com/kaiosilveira/extract-function-refactoring)**: move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
 
-- [Inline function](https://github.com/kaiosilveira/inline-function-refactoring): sometimes a short function's body is as clear as its name, in these cases, we often want to inline it and be more idiomatic instead of performing a function call.
+- **[Inline function](https://github.com/kaiosilveira/inline-function-refactoring)**: sometimes a short function's body is as clear as its name, in these cases, we often want to inline it and be more idiomatic instead of performing a function call.
 
 - [Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring): sometimes expressions become hard to read and add a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret a given piece of code, replacing an expression with well-structured text.
 
