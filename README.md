@@ -51,7 +51,7 @@ This catalog explains in detail (and with actual working code) the various strat
 
 The refactorings listed below are considered "essential" ones and were probably used by all readers at some point. They form the foundation for the more involved and complicated refactorings and also help create the refactoring mindset, especially the attention to detail and the concerns regarding keeping the code in a working state and the test suites passing as we go:
 
-- [Extract function](https://github.com/kaiosilveira/extract-function-refactoring): move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
+- **[Extract function](https://github.com/kaiosilveira/extract-function-refactoring)**: move a code block into a function so it has a meaningful name and a clear intent. It will also improve code readability by helping reduce code repetition.
 
 - [Inline function](https://github.com/kaiosilveira/inline-function-refactoring): sometimes a short function's body is as clear as its name, in these cases, we often want to inline it and be more idiomatic instead of performing a function call.
 
