@@ -57,7 +57,7 @@ The refactorings listed below are considered "essential" ones and were probably 
 
 - **[Extract variable](https://github.com/kaiosilveira/extract-variable-refactoring)**: sometimes expressions become hard to read and add a lot of overhead when trying to understand a given piece of code. Extracting a variable for a complex expression helps the reader by reducing the amount of logic to interpret a given piece of code, replacing an expression with well-structured text.
 
-- [Inline variable](https://github.com/kaiosilveira/inline-variable-refactoring): sometimes a variable is as clear and short as the expression it is derived from, and sometimes it gets in the way of refactoring the code surrounding it. In these cases, it is often best to delete the variable and inline the originating expression.
+- **[Inline variable](https://github.com/kaiosilveira/inline-variable-refactoring)**: sometimes a variable is as clear and short as the expression it is derived from, and sometimes it gets in the way of refactoring the code surrounding it. In these cases, it is often best to delete the variable and inline the originating expression.
 
 - [Change function declaration](https://github.com/kaiosilveira/change-function-declaration-refactoring): sometimes we want to rename a function or change its parameters' structure, but it's being referenced by a lot of different files and in different ways. This refactoring helps with an approach for these cases.
 
