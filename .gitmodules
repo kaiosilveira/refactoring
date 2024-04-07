@@ -103,3 +103,6 @@
 [submodule "change-value-to-reference"]
 	path = change-value-to-reference
 	url = https://github.com/kaiosilveira/change-value-to-reference-refactoring.git
+[submodule "decompose-conditional"]
+	path = decompose-conditional
+	url = https://github.com/kaiosilveira/decompose-conditional-refactoring.git

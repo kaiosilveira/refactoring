@@ -131,7 +131,13 @@ Our programs are nothing without data: be it internally created or externally im
 
 - **[Change value to reference](https://github.com/kaiosilveira/change-value-to-reference-refactoring)**: Mutability is one of the most important aspects to be aware of in any software program. Ripple effects can cause hard-to-debug problems and flaky tests but, sometimes, they're exactly what we're expecting to happen. This refactoring helps in cases where we want our underlying objects (or data structures) to be mutable, often by protecting them and providing a standard, centralized, and memory-efficient way of retrieving them.
 
-## Appendix: Useful commands when cloning this codebase locally
+### Simplifying conditional logic
+
+Conditionals play a central role in every program: it'd be really hard to implement anything without them. Unfortunately, the complexity that comes out of complicated conditionals can make it hard for the readers to reason about the code they're staring at. This section brings refactorings focused on working on conditionals to make them easier to understand, more communicative, and more fluid.
+
+- **[Decompose conditional](https://github.com/kaiosilveira/decompose-conditional-refactoring)**: Conditionals can get tricky fast, be it because of the length of each conditional leg, because of the rules applied to each branch, or because of the intrinsic nature of the conditions. This refactoring helps bring clarity to all these cases.
+
+### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
 
