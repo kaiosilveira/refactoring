@@ -106,3 +106,6 @@
 [submodule "decompose-conditional"]
 	path = decompose-conditional
 	url = https://github.com/kaiosilveira/decompose-conditional-refactoring.git
+[submodule "consolidate-conditional-expression"]
+	path = consolidate-conditional-expression
+	url = https://github.com/kaiosilveira/consolidate-conditional-expression-refactoring.git

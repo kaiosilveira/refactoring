@@ -137,6 +137,8 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Decompose conditional](https://github.com/kaiosilveira/decompose-conditional-refactoring)**: Conditionals can get tricky fast, be it because of the length of each conditional leg, because of the rules applied to each branch, or because of the intrinsic nature of the conditions. This refactoring helps bring clarity to all these cases.
 
+- **[Consolidate conditional expression](https://github.com/kaiosilveira/consolidate-conditional-expression-refactoring)**: Oftentimes we see conditions that evolve in the form of new rules being added to an already existing chain of validations. Sometimes, though, these conditions are only extensions to the already stated conditions. In these cases, consolidating them into a single condition helps with readability and sets the stage for other refactorings.
+
 ### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
