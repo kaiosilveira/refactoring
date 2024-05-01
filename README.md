@@ -139,6 +139,8 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Consolidate conditional expression](https://github.com/kaiosilveira/consolidate-conditional-expression-refactoring)**: Oftentimes we see conditions that evolve in the form of new rules being added to an already existing chain of validations. Sometimes, though, these conditions are only extensions to the already stated conditions. In these cases, consolidating them into a single condition helps with readability and sets the stage for other refactorings.
 
+- **[Replace nested conditional with guard clauses](https://github.com/kaiosilveira/replace-nested-conditional-with-guard-clauses-refactoring)**: Coding in the real world is complicated: we have several rules to evaluate, ranges to check, and invariants to protect. With all of that, it's easy to let ourselves get carried away by the validations and edge cases and forget about the real goal of a piece of code. This refactoring helps in recovering from these cases.
+
 ### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

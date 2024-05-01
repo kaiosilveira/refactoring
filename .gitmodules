@@ -109,3 +109,6 @@
 [submodule "consolidate-conditional-expression"]
 	path = consolidate-conditional-expression
 	url = https://github.com/kaiosilveira/consolidate-conditional-expression-refactoring.git
+[submodule "replace-nested-conditional-with-guard-clauses"]
+	path = replace-nested-conditional-with-guard-clauses
+	url = https://github.com/kaiosilveira/replace-nested-conditional-with-guard-clauses-refactoring.git
