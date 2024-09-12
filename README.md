@@ -141,6 +141,8 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Replace nested conditional with guard clauses](https://github.com/kaiosilveira/replace-nested-conditional-with-guard-clauses-refactoring)**: Coding in the real world is complicated: we have several rules to evaluate, ranges to check, and invariants to protect. With all of that, it's easy to let ourselves get carried away by the validations and edge cases and forget about the real goal of a piece of code. This refactoring helps in recovering from these cases.
 
+- **[Replace Conditional with Polymorphism](https://github.com/kaiosilveira/replace-conditional-with-polymorphism-refactoring)**: Conditionals are a quick and easy way to derive behavior based on an object's peperties but, sometimes, this derivatives had to be done in several places, often highlighting that something is not quite right or, at least, could be done better. This refactoring helps in these cases.
+
 ### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

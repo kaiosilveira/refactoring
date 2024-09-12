@@ -112,3 +112,6 @@
 [submodule "replace-nested-conditional-with-guard-clauses"]
 	path = replace-nested-conditional-with-guard-clauses
 	url = https://github.com/kaiosilveira/replace-nested-conditional-with-guard-clauses-refactoring.git
+[submodule "replace-conditional-with-polymorphism"]
+	path = replace-conditional-with-polymorphism
+	url = https://github.com/kaiosilveira/replace-conditional-with-polymorphism-refactoring.git
