@@ -143,6 +143,8 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Replace Conditional with Polymorphism](https://github.com/kaiosilveira/replace-conditional-with-polymorphism-refactoring)**: Conditionals are a quick and easy way to derive behavior based on an object's peperties but, sometimes, this derivatives had to be done in several places, often highlighting that something is not quite right or, at least, could be done better. This refactoring helps in these cases.
 
+- **[Introduce Special Case](https://github.com/kaiosilveira/introduce-special-case-refactoring)**: Sometimes we put too much focus on implementing our classes, encapsulating their behaviors, and making them specialists on what they should do, that we forget to think about when they just... don't exist. This "non-existence" often leads to client code performing repetitive null checks and choosing alternate behaviors and values whenever appropriate. It's better, though, to have these special cases considered as part of our main implementation as well, so our domain is even more solid and clients are way happier. This refactoring helps doing that.
+
 ### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

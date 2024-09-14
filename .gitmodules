@@ -115,3 +115,6 @@
 [submodule "replace-conditional-with-polymorphism"]
 	path = replace-conditional-with-polymorphism
 	url = https://github.com/kaiosilveira/replace-conditional-with-polymorphism-refactoring.git
+[submodule "introduce-special-case"]
+	path = introduce-special-case
+	url = https://github.com/kaiosilveira/introduce-special-case-refactoring.git
