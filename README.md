@@ -147,6 +147,8 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Introduce Assertion](https://github.com/kaiosilveira/introduce-assertion-refactoring)**: More often than not and since code is read way more times than it is modified / written, programming is a matter of making implicit assumptions explicit, so we delegate less judgment and processing to the reader, allowing for fewer broken assumptions and, therefore, more assertive code. This refactoring brings a quick and easy way to provide this feat.
 
+---
+
 ### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:
