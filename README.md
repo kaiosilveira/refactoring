@@ -145,6 +145,8 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Introduce Special Case](https://github.com/kaiosilveira/introduce-special-case-refactoring)**: Sometimes we put too much focus on implementing our classes, encapsulating their behaviors, and making them specialists on what they should do, that we forget to think about when they just... don't exist. This "non-existence" often leads to client code performing repetitive null checks and choosing alternate behaviors and values whenever appropriate. It's better, though, to have these special cases considered as part of our main implementation as well, so our domain is even more solid and clients are way happier. This refactoring helps doing that.
 
+- **[Introduce Assertion](https://github.com/kaiosilveira/introduce-assertion-refactoring)**: More often than not and since code is read way more times than it is modified / written, programming is a matter of making implicit assumptions explicit, so we delegate less judgment and processing to the reader, allowing for fewer broken assumptions and, therefore, more assertive code. This refactoring brings a quick and easy way to provide this feat.
+
 ### Appendix: Useful commands when cloning this codebase locally
 
 - fetch all submodules after cloning this repository for the first time in a machine:

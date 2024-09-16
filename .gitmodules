@@ -118,3 +118,6 @@
 [submodule "introduce-special-case"]
 	path = introduce-special-case
 	url = https://github.com/kaiosilveira/introduce-special-case-refactoring.git
+[submodule "introduce-assertion"]
+	path = introduce-assertion
+	url = https://github.com/kaiosilveira/introduce-assertion-refactoring.git
