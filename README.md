@@ -147,6 +147,12 @@ Conditionals play a central role in every program: it'd be really hard to implem
 
 - **[Introduce Assertion](https://github.com/kaiosilveira/introduce-assertion-refactoring)**: More often than not and since code is read way more times than it is modified / written, programming is a matter of making implicit assumptions explicit, so we delegate less judgment and processing to the reader, allowing for fewer broken assumptions and, therefore, more assertive code. This refactoring brings a quick and easy way to provide this feat.
 
+### Refactoring APIs
+
+Although "remote web APIs" is the first thing that comes to mind when we hear the word "API", application programming interfaces are just "joints" that allow two systems (or parts of these systems) to communicate. They can be abstracly defined as anything that a given module exports, be it a function name, object schemas, so on so forth.
+
+- **[Separate Query from Modifier](https://github.com/kaiosilveira/separate-query-from-modifier-refactoring)**: Good code is about clarity. Good code looks obvious at first sight, or even pre-first sight, just by reading the name of a function. Side effects are the biggest antagonists of clarity: they cause chaos in an often uncontrolled way. This refactoring helps on bringing predictability and peace.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally

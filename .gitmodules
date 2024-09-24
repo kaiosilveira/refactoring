@@ -121,3 +121,6 @@
 [submodule "introduce-assertion"]
 	path = introduce-assertion
 	url = https://github.com/kaiosilveira/introduce-assertion-refactoring.git
+[submodule "separate-query-from-modifier"]
+	path = separate-query-from-modifier
+	url = https://github.com/kaiosilveira/separate-query-from-modifier-refactoring.git
