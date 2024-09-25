@@ -153,6 +153,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Separate Query from Modifier](https://github.com/kaiosilveira/separate-query-from-modifier-refactoring)**: Good code is about clarity. Good code looks obvious at first sight, or even pre-first sight, just by reading the name of a function. Side effects are the biggest antagonists of clarity: they cause chaos in an often uncontrolled way. This refactoring helps on bringing predictability and peace.
 
+- **[Parameterize Function](https://github.com/kaiosilveira/parameterize-function-refactoring)**: There are only a few things in programming that are more annoying than two chunks of code that does _almost_ the same thing, except for a tiny detail. This refactoring helps solving this issue.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally

@@ -124,3 +124,6 @@
 [submodule "separate-query-from-modifier"]
 	path = separate-query-from-modifier
 	url = https://github.com/kaiosilveira/separate-query-from-modifier-refactoring.git
+[submodule "parameterize-function"]
+	path = parameterize-function
+	url = https://github.com/kaiosilveira/parameterize-function-refactoring.git
