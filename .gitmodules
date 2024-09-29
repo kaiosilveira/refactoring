@@ -127,3 +127,6 @@
 [submodule "parameterize-function"]
 	path = parameterize-function
 	url = https://github.com/kaiosilveira/parameterize-function-refactoring.git
+[submodule "remove-flag-argument"]
+	path = remove-flag-argument
+	url = https://github.com/kaiosilveira/remove-flag-argument-refactoring

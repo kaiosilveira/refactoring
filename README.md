@@ -155,6 +155,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Parameterize Function](https://github.com/kaiosilveira/parameterize-function-refactoring)**: There are only a few things in programming that are more annoying than two chunks of code that does _almost_ the same thing, except for a tiny detail. This refactoring helps solving this issue.
 
+- **[Remove Flag Argument](https://github.com/kaiosilveira/remove-flag-argument-refactoring)**: Flag arguments are a classic way of allowing the calling code to customize the behavior of a function. Depending on how they are implemented, though, they can put a big overhead on the readers, specially in programming languages without named arguments. This refactoring helps with bringing back clarify by removing the flag.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
