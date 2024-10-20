@@ -133,3 +133,6 @@
 [submodule "preserve-whole-object"]
 	path = preserve-whole-object
 	url = https://github.com/kaiosilveira/preserve-whole-object-refactoring.git
+[submodule "replace-parameter-with-query"]
+	path = replace-parameter-with-query
+	url = https://github.com/kaiosilveira/replace-parameter-with-query-refactoring

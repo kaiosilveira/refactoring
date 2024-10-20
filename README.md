@@ -159,6 +159,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Preserve Whole Object](https://github.com/kaiosilveira/preserve-whole-object-refactoring)**: Functions evolve and, sometimes, their parameter lists evolve with them. More often than not, we find ourselves providing a long list of arguments to a function, with each of these arguments belonging to the same top-level object. This refactoring helps with strategies to preserve the whole object in these cases, consequentially reducing the argument list.
 
+- **[Replace Parameter with Query](https://github.com/kaiosilveira/replace-parameter-with-query-refactoring)**: Data can take many shapes and form, and so does function signatures. Sometimes, though, we can easily derive values from a related top-level structure that we already have access to, therefore simplifying argument lists and reliefing callers of one more parameter. This refactoring helps with that.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
