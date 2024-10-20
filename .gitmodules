@@ -130,3 +130,6 @@
 [submodule "remove-flag-argument"]
 	path = remove-flag-argument
 	url = https://github.com/kaiosilveira/remove-flag-argument-refactoring
+[submodule "preserve-whole-object"]
+	path = preserve-whole-object
+	url = https://github.com/kaiosilveira/preserve-whole-object-refactoring.git

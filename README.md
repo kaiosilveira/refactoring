@@ -157,6 +157,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Remove Flag Argument](https://github.com/kaiosilveira/remove-flag-argument-refactoring)**: Flag arguments are a classic way of allowing the calling code to customize the behavior of a function. Depending on how they are implemented, though, they can put a big overhead on the readers, specially in programming languages without named arguments. This refactoring helps with bringing back clarify by removing the flag.
 
+- **[Preserve Whole Object](https://github.com/kaiosilveira/preserve-whole-object-refactoring)**: Functions evolve and, sometimes, their parameter lists evolve with them. More often than not, we find ourselves providing a long list of arguments to a function, with each of these arguments belonging to the same top-level object. This refactoring helps with strategies to preserve the whole object in these cases, consequentially reducing the argument list.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
