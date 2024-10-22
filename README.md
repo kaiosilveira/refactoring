@@ -161,6 +161,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Replace Parameter with Query](https://github.com/kaiosilveira/replace-parameter-with-query-refactoring)**: Data can take many shapes and form, and so does function signatures. Sometimes, though, we can easily derive values from a related top-level structure that we already have access to, therefore simplifying argument lists and reliefing callers of one more parameter. This refactoring helps with that.
 
+- **[Replace Query with Parameter](https://github.com/kaiosilveira/replace-query-with-parameter-refactoring)**: External dependencies are easy to use, highly available with minimal overhead, and often require no initialization, but their downsides often outweight all these positive attributes: global shared states can become complicated to manage as the codebase grows, it's harder to track side effects throughout the system, and testing the code that depend on them can become a nightmare. This refactoring sheds some light on how to move away of these cases.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
