@@ -163,6 +163,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Replace Query with Parameter](https://github.com/kaiosilveira/replace-query-with-parameter-refactoring)**: External dependencies are easy to use, highly available with minimal overhead, and often require no initialization, but their downsides often outweight all these positive attributes: global shared states can become complicated to manage as the codebase grows, it's harder to track side effects throughout the system, and testing the code that depend on them can become a nightmare. This refactoring sheds some light on how to move away of these cases.
 
+- **[Remove Setting Method](https://github.com/kaiosilveira/remove-setting-method-refactoring)**: Making objects immutable is a practical way of avoiding overhead (in the form of tracking changes throughout a codebase) and unintended side effects. This refactoring helps with just that.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally

@@ -139,3 +139,6 @@
 [submodule "replace-query-with-parameter"]
 	path = replace-query-with-parameter
 	url = https://github.com/kaiosilveira/replace-query-with-parameter-refactoring.git
+[submodule "remove-setting-method"]
+	path = remove-setting-method
+	url = https://github.com/kaiosilveira/remove-setting-method-refactoring.git
