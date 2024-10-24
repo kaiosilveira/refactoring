@@ -142,3 +142,6 @@
 [submodule "remove-setting-method"]
 	path = remove-setting-method
 	url = https://github.com/kaiosilveira/remove-setting-method-refactoring.git
+[submodule "replace-constructor-with-factory-function"]
+	path = replace-constructor-with-factory-function
+	url = https://github.com/kaiosilveira/replace-constructor-with-factory-function-refactoring

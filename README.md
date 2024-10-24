@@ -165,6 +165,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Remove Setting Method](https://github.com/kaiosilveira/remove-setting-method-refactoring)**: Making objects immutable is a practical way of avoiding overhead (in the form of tracking changes throughout a codebase) and unintended side effects. This refactoring helps with just that.
 
+- **[Replace Constructor With Factory Function](https://github.com/kaiosilveira/replace-constructor-with-factory-function-refactoring)**: Sometimes we need more control over initialization than a constructor can possibly provide, and that's where a [Factory Method](https://github.com/kaiosilveira/design-patterns/tree/main/factory-method) comes in handy: it can hide complex initialization logic, replace the resulting instance with a proxy or decorate it with complementary behavior. This refactoring helps with moving towards this approach.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
