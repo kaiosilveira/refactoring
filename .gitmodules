@@ -145,3 +145,6 @@
 [submodule "replace-constructor-with-factory-function"]
 	path = replace-constructor-with-factory-function
 	url = https://github.com/kaiosilveira/replace-constructor-with-factory-function-refactoring
+[submodule "replace-function-with-command"]
+	path = replace-function-with-command
+	url = https://github.com/kaiosilveira/replace-function-with-command-refactoring.git

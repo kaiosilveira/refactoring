@@ -167,6 +167,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Replace Constructor With Factory Function](https://github.com/kaiosilveira/replace-constructor-with-factory-function-refactoring)**: Sometimes we need more control over initialization than a constructor can possibly provide, and that's where a [Factory Method](https://github.com/kaiosilveira/design-patterns/tree/main/factory-method) comes in handy: it can hide complex initialization logic, replace the resulting instance with a proxy or decorate it with complementary behavior. This refactoring helps with moving towards this approach.
 
+- **[Replace Function With Command](https://github.com/kaiosilveira/replace-function-with-command-refactoring)**: Nested functions are a useful tool in most cases but, sometimes, we need extra control over variables and readability. That's when this refactoring (and [commands](https://github.com/kaiosilveira/design-patterns/tree/main/command)) comes in handy.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
