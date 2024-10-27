@@ -169,6 +169,8 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Replace Function With Command](https://github.com/kaiosilveira/replace-function-with-command-refactoring)**: Nested functions are a useful tool in most cases but, sometimes, we need extra control over variables and readability. That's when this refactoring (and [commands](https://github.com/kaiosilveira/design-patterns/tree/main/command)) comes in handy.
 
+- **[Replace Command With Function](https://github.com/kaiosilveira/replace-command-with-function-refactoring)**: [Commands](https://github.com/kaiosilveira/design-patterns/tree/main/command) are powerful coding constructs that provide us with greater levels of control over parameters, initialization, and code separation. Sometimes, though, a function is more than enough to accomplish a simple task, providing minimal overhead and a straight-to-the-point approach. This refactoring helps with converting commands into regular functions.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally

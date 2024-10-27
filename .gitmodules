@@ -148,3 +148,6 @@
 [submodule "replace-function-with-command"]
 	path = replace-function-with-command
 	url = https://github.com/kaiosilveira/replace-function-with-command-refactoring.git
+[submodule "replace-command-with-function"]
+	path = replace-command-with-function
+	url = https://github.com/kaiosilveira/replace-command-with-function-refactoring
