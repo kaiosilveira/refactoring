@@ -173,7 +173,7 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 ### Dealing with inheritance
 
-[WIP]
+In Portuguese, we have the funny maxima "faca de dois legumes", which is a play of words on the transposed, localized meaning of "double-edged sword", that well states the tradeoffs involved in certain things. This is highly applicable to Object-Oriented Programming and its inheritance features. The following refactorings shed light on how to handle commonly found situations related to this so praised (and also often so hated) aspect.
 
 - **[Pull up method](https://github.com/kaiosilveira/pull-up-method-refactoring)**: Duplication shows up everywhere, sometimes subtly, sometimes shockingly. In the context of OO and class hierarchies, sometimes it's easy to let something that's implemented in another subclass go unnoticed and end up reimplementing it. This refactoring helps to clean that up.
 
