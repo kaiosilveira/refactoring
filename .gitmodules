@@ -154,3 +154,6 @@
 [submodule "pull-up-method"]
 	path = pull-up-method
 	url = https://github.com/kaiosilveira/pull-up-method-refactoring.git
+[submodule "pull-up-field"]
+	path = pull-up-field
+	url = https://github.com/kaiosilveira/pull-up-field-refactoring.git

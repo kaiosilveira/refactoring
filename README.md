@@ -177,6 +177,8 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Pull up method](https://github.com/kaiosilveira/pull-up-method-refactoring)**: Duplication shows up everywhere, sometimes subtly, sometimes shockingly. In the context of OO and class hierarchies, sometimes it's easy to let something that's implemented in another subclass go unnoticed and end up reimplementing it. This refactoring helps to clean that up.
 
+- **[Pull up field](https://github.com/kaiosilveira/pull-up-field-refactoring)**: When working with inheritance, sometimes we end up creating fields that seem particular to that subclass, but in fact was already added to another subclass in the hiearchy. This refactoring helps with these cases.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
