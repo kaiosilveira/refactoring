@@ -171,6 +171,12 @@ Although "remote web APIs" is the first thing that comes to mind when we hear th
 
 - **[Replace Command With Function](https://github.com/kaiosilveira/replace-command-with-function-refactoring)**: [Commands](https://github.com/kaiosilveira/design-patterns/tree/main/command) are powerful coding constructs that provide us with greater levels of control over parameters, initialization, and code separation. Sometimes, though, a function is more than enough to accomplish a simple task, providing minimal overhead and a straight-to-the-point approach. This refactoring helps with converting commands into regular functions.
 
+### Dealing with inheritance
+
+[WIP]
+
+- **[Pull up method](https://github.com/kaiosilveira/pull-up-method-refactoring)**: Duplication shows up everywhere, sometimes subtly, sometimes shockingly. In the context of OO and class hierarchies, sometimes it's easy to let something that's implemented in another subclass go unnoticed and end up reimplementing it. This refactoring helps to clean that up.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
