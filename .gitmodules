@@ -157,3 +157,6 @@
 [submodule "pull-up-field"]
 	path = pull-up-field
 	url = https://github.com/kaiosilveira/pull-up-field-refactoring.git
+[submodule "pull-up-constructor-body"]
+	path = pull-up-constructor-body
+	url = https://github.com/kaiosilveira/pull-up-constructor-body-refactoring.git
