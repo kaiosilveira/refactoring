@@ -160,3 +160,6 @@
 [submodule "pull-up-constructor-body"]
 	path = pull-up-constructor-body
 	url = https://github.com/kaiosilveira/pull-up-constructor-body-refactoring.git
+[submodule "push-down-method"]
+	path = push-down-method
+	url = https://github.com/kaiosilveira/push-down-method-refactoring.git

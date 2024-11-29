@@ -179,7 +179,11 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Pull Up Field](https://github.com/kaiosilveira/pull-up-field-refactoring)**: When working with inheritance, sometimes we end up creating fields that seem particular to that subclass, but in fact was already added to another subclass in the hiearchy. This refactoring helps with these cases.
 
-- **[Pull Up Constructor Body](https://github.com/kaiosilveira/pull-up-field-refactoring)**: Constructors are handy: they're an easy and quick way to abstract initialization logic in a practical, straightforward manner, but they're also tricky: their constraints in terms of execution order, hierarchical dependency, and sync invocation, can sometimes get in our way. This refactoring helps with these ins and outs.
+- **[Pull Up Constructor Body](https://github.com/kaiosilveira/pull-up-constructor-body-refactoring)**: Constructors are handy: they're an easy and quick way to abstract initialization logic in a practical, straightforward manner, but they're also tricky: their constraints in terms of execution order, hierarchical dependency, and sync invocation, can sometimes get in our way. This refactoring helps with these ins and outs.
+
+- **[Push Down Method](https://github.com/kaiosilveira/push-down-method-refactoring)**: As it often happens with class hierarchies, we have some specific methods that was firstly thought to be common to all subclasses, but end up being relevant just for some of those. This refactoring gives a glimpse of what to do.
+
+- **[Push Down Field](https://github.com/kaiosilveira/push-down-field-refactoring)**: As it often happens with class hierarchies, we have some specific fields that was firstly thought to be common to all subclasses, but end up being relevant just for some of those. This refactoring gives a glimpse of what to do in these cases.
 
 ---
 
