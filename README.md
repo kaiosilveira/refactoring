@@ -185,6 +185,8 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Push Down Field](https://github.com/kaiosilveira/push-down-field-refactoring)**: As it often happens with class hierarchies, we have some specific fields that was firstly thought to be common to all subclasses, but end up being relevant just for some of those. This refactoring gives a glimpse of what to do in these cases.
 
+- **[Replace Type Code with Subclasses](https://github.com/kaiosilveira/replace-type-code-with-subclasses-refactoring)**: Many class hierarchies fall short from their idiomacy (is that a word?) and intended goal of abstracting away details at the moment they start including hints to the client code regarding what will happen. This is specially true when you have enum-like flags passed around during construction. This refactoring helps bringing abstraction back to its best.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally

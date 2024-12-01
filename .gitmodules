@@ -163,3 +163,6 @@
 [submodule "push-down-method"]
 	path = push-down-method
 	url = https://github.com/kaiosilveira/push-down-method-refactoring.git
+[submodule "replace-type-code-with-subclasses"]
+	path = replace-type-code-with-subclasses
+	url = https://github.com/kaiosilveira/replace-type-code-with-subclasses-refactoring.git
