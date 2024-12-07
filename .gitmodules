@@ -166,3 +166,9 @@
 [submodule "replace-type-code-with-subclasses"]
 	path = replace-type-code-with-subclasses
 	url = https://github.com/kaiosilveira/replace-type-code-with-subclasses-refactoring.git
+[submodule "remove-subclass"]
+	path = remove-subclass
+	url = https://github.com/kaiosilveira/remove-subclass-refactoring.git
+[submodule "extract-superclass"]
+	path = extract-superclass
+	url = https://github.com/kaiosilveira/extract-superclass-refactoring.git

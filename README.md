@@ -187,6 +187,10 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Replace Type Code with Subclasses](https://github.com/kaiosilveira/replace-type-code-with-subclasses-refactoring)**: Many class hierarchies fall short from their idiomacy (is that a word?) and intended goal of abstracting away details at the moment they start including hints to the client code regarding what will happen. This is specially true when you have enum-like flags passed around during construction. This refactoring helps bringing abstraction back to its best.
 
+- **[Remove Subclass](https://github.com/kaiosilveira/remove-subclass-refactoring)**: Sublcasses are useful and often provide a good degree of code separation, encapsulation, and isolation. Sometimes, though, as our understanding about the problem domain grows, we need to distil the model a bit, and this may imply pruning some leaves (a.k.a. removing some subclasses and / or cutting down some class hierarchies). This refactoring helps with that.
+
+- **[Extract Superclass](https://github.com/kaiosilveira/extract-superclass-refactoring)**: Duplication is probably not the root of **all** evil, but it accounts for a good portion of it. Often enough, we have classes doing the same thing in slightly different ways. This refactoring helps with bringing this behavior to a single place.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
