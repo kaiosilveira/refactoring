@@ -172,3 +172,6 @@
 [submodule "extract-superclass"]
 	path = extract-superclass
 	url = https://github.com/kaiosilveira/extract-superclass-refactoring.git
+[submodule "collapse-hierarchy"]
+	path = collapse-hierarchy
+	url = https://github.com/kaiosilveira/collapse-hierarchy-refactoring

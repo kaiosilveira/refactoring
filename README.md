@@ -191,6 +191,8 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Extract Superclass](https://github.com/kaiosilveira/extract-superclass-refactoring)**: Duplication is probably not the root of **all** evil, but it accounts for a good portion of it. Often enough, we have classes doing the same thing in slightly different ways. This refactoring helps with bringing this behavior to a single place.
 
+- **[Collapse Hierarchy](https://github.com/kaiosilveira/collapse-hierarchy-refactoring)**: Often enough, simplicity pays off. This is also true when we reach clearer interfaces and relationships. The side-effect, though, is that sometimes we find out that we no longer need a certain hierarchies. This refactoring helps with collapsing those into the base class.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
