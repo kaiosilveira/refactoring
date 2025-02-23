@@ -193,6 +193,8 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Collapse Hierarchy](https://github.com/kaiosilveira/collapse-hierarchy-refactoring)**: Often enough, simplicity pays off. This is also true when we reach clearer interfaces and relationships. The side-effect, though, is that sometimes we find out that we no longer need a certain hierarchies. This refactoring helps with collapsing those into the base class.
 
+- **[Replace Subclass With Delegate](https://github.com/kaiosilveira/replace-subclass-with-delegate-refactoring)**: Inheritance is at the core of Object-Oriented Programming, and it's the "go to" approach for most of the slight specific behaviors we want to isolate out of general, default ones. It has it's downsides, though: you can only vary in one dimension. Delegation helps in cases where we need to vary in multiple axis, and brings with it the benefit of a more structured separation of concerns, with reinforced indirection.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally

@@ -175,3 +175,6 @@
 [submodule "collapse-hierarchy"]
 	path = collapse-hierarchy
 	url = https://github.com/kaiosilveira/collapse-hierarchy-refactoring
+[submodule "replace-subclass-with-delegate"]
+	path = replace-subclass-with-delegate
+	url = https://github.com/kaiosilveira/replace-subclass-with-delegate-refactoring.git
