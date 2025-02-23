@@ -178,3 +178,6 @@
 [submodule "replace-subclass-with-delegate"]
 	path = replace-subclass-with-delegate
 	url = https://github.com/kaiosilveira/replace-subclass-with-delegate-refactoring.git
+[submodule "replace-superclass-with-delegate"]
+	path = replace-superclass-with-delegate
+	url = https://github.com/kaiosilveira/replace-superclass-with-delegate-refactoring.git

@@ -195,6 +195,8 @@ In Portuguese, we have the funny maxima "faca de dois legumes", which is a play 
 
 - **[Replace Subclass With Delegate](https://github.com/kaiosilveira/replace-subclass-with-delegate-refactoring)**: Inheritance is at the core of Object-Oriented Programming, and it's the "go to" approach for most of the slight specific behaviors we want to isolate out of general, default ones. It has it's downsides, though: you can only vary in one dimension. Delegation helps in cases where we need to vary in multiple axis, and brings with it the benefit of a more structured separation of concerns, with reinforced indirection.
 
+- **[Replace Superclass With Delegate](https://github.com/kaiosilveira/replace-superclass-with-delegate-refactoring)**: Inheritance works so well that sometimes we make mistakes. Just because a class has some similarities with another, that doesn't mean that there's a true inheritance relationship between them. This refactoring helps with breaking these wrong links.
+
 ---
 
 ### Appendix: Useful commands when cloning this codebase locally
