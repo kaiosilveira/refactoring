@@ -1,5 +1,3 @@
-🚧 **This repository is a work in progress. Check out its roadmap at [Refactoring Catalog Roadmap](https://github.com/users/kaiosilveira/projects/1/views/1) for an overview of what's in progress and an estimate of the remaining work** 🚧
-
 ℹ️ _DISCLAIMER: This repository is a working implementation of the refactoring patterns as described in the "Refactoring" book, by Martin Fowler. Please refer to [Refactoring](https://martinfowler.com/books/refactoring.html) for more info about Fowler's work on the topic._
 
 # Refactoring
@@ -14,7 +12,7 @@ _\*destructive: By "destructive" here I mean any change to the code that makes i
 
 > Refactoring is the process of changing a software system in a way that does not alter the external behavior of the code yet improves its internal structure. It is a **disciplined way** to clean up code that minimizes the chances of introducing bugs. In essence, when you refactor, you are improving the design of the code after it has been written
 
-— Fowler, Martin @ Refactoring
+— Fowler, Martin @ Refactoring
 
 ## Technical details and repo structure
 
